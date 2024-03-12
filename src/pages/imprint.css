@@ -1,0 +1,44 @@
+.guur_imprint-container {
+    margin: 8rem 75px;
+    color: white;
+    font-family: var(--font-family2);
+}
+
+.guur_imprint-container h1 {
+    margin-bottom: 2%;
+}
+
+.guur_imprint-container h3 {
+    font-size: 1rem;
+}
+
+.guur_imprint-container p {
+    margin-bottom: 4%;
+}
+
+.guur_imprint-logo {
+    margin-top: 2%;
+    width: 150px;
+    height: auto;
+}
+
+@media screen and (max-width: 1025px) {
+    .guur_imprint-container {
+        margin: 8rem 35px;
+    }
+    .guur_imprint-container h1 {
+        margin-bottom: 6%;
+    }
+    .guur_imprint-container p {
+        margin-bottom: 6%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .guur_imprint-container h1 {
+        margin-bottom: 10%;
+    }
+    .guur_imprint-container p {
+        margin-bottom: 10%;
+    }
+}

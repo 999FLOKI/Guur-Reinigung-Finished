@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --font-family2: 'DM Sans', sans-serif;
+    --font-family: 'Poppins', sans-serif;
+                    
+    --gradient-cta: linear-gradient(90deg, #25408F 0%, #7884DD 100%);
+    --gradient-hero: linear-gradient(42deg, #25408F 0%, #5773C7 100%);
+    
+    --color-bg: #5061B5;
+    --color-footer: #001154;
+    --color-reason: #7884DD;
+    --color-floats: #A0A9FF;
+    --color-floats-2: #FD4C0F;
+    --color-footer-text: #B2BAD9;
+    --color-blob: #5E6DC2;
+    --color-blob-2: #727FDD; 
+    --speed: 500ms;
+ 
+}
+
+

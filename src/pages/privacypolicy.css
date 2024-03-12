@@ -1,0 +1,28 @@
+
+.privacyDiv{
+    margin: 8rem 75px;
+    font-family: var(--font-family2);
+}
+.privacyDiv p, .privacyDiv h1, .privacyDiv h3, .privacyDiv b, .privacyDiv ul li {
+    margin:auto auto 1.5rem auto;
+    color: white;
+}
+.privacyDiv p {
+    font-size: 1rem;
+
+}
+.privacyDiv h1 {
+    font-size: 2rem;
+}
+.privacyDiv h3 {
+    font-size: 1.5rem;
+}
+.link {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1025px) {
+    .privacyDiv{
+        margin: 8rem 35px;
+    }
+}

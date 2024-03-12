@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.gradient__bg {
+                  
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(42deg, #25408F 0%, #5773C7 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(42deg, #25408F 0%, #5773C7 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(42deg, #25408F 0%, #5773C7 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25408F', endColorstr='#5773C7', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(42deg, #25408F 0%, #5773C7 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(42deg, #25408F 0%, #5773C7 100%);
+
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}    
+
+.section__margin {
+    margin: 4rem 6rem;
+}   
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.hidden {
+    opacity: 0.1;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: opacity 0.8s, filter 0.8s, transform 0.8s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+       margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+       margin: 4rem 2rem;
+    }
+}

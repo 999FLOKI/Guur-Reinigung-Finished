@@ -1,0 +1,762 @@
+/* GUUR BRAND */
+
+.guur__brand{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    font-family: var(--font-family2);
+    width: 90%;
+    height: auto;
+    background-color: #7884DD;
+    border-radius: 100px;
+    margin: 3rem auto;
+    padding: 0rem 2.302rem;
+    position: relative;
+    z-index: -2;
+    overflow-x: hidden;
+
+}
+
+/* Guur Brand for all <hr> tags */
+.guur__brand-hr {
+    background-color: var(--color-floats-2);
+    border: none;
+    height: 0.5rem;
+    width: 5.1875rem;
+    border-radius: 1.25rem;
+}
+
+
+
+/* TOP CONTAINER  */
+
+.guur__brand-top-container {
+    margin: 3rem 0rem 0rem 2.302rem;
+}
+
+.guur__brand-top-container h2 {
+    font-size: 1.875rem;
+}
+
+
+
+/* BRAND CONTAINER  */
+
+
+.guur__brand-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.guur__brand-top-container h2 {
+    margin-top: 10px;
+}
+
+                                        /*  GUUR BRAND IMAGE */
+
+      
+      
+.guur__brand-image {
+    margin: 2.302rem;
+}   
+
+
+
+
+.guur__brand-image img {
+    display: block;
+    max-width:515px;
+    max-height:500px;
+    width: 440px;
+    height: 440px;
+    
+}
+
+
+
+                                    /*  GUUR BRAND Header*/
+
+
+.guur__brand-header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.guur__brand-header h2 {
+    font-size: 1.125rem;
+}
+
+.guur__brand-header-row-1 hr {
+    width: 3.4375rem;
+    height: 0.3125rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--color-floats-2);
+    border: none;
+    border-radius: 1.25rem;
+}
+
+
+/*  GUUR BRAND TEXT*/
+
+.guur__brand-header-paragraph {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem auto;
+    left: 0;
+}
+
+.guur__brand-header-row-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.guur__brand-header-row-2 p {
+    font-size: 1rem;
+}
+
+.guur__brand-header-row-1 h2 {
+    width: 185px;
+}
+
+@media screen and (min-width: 2500px) {
+    .guur__brand {
+        display: flex;
+        flex-direction: column;
+        width: 2000px;
+    }
+}
+
+
+@media screen and (min-width: 1850px){
+    .guur__brand-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20%;
+    }
+    
+    .guur__brand-header-paragraph {
+        margin: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1250px){
+
+    .guur__brand-top-container {
+        margin: 3rem 0px 0px 2.302rem;
+    }
+
+    .guur__brand-image {
+        margin-top: 10%;
+    }
+
+  
+    
+}
+
+@media screen and (max-width: 1150px){
+
+
+    .guur__brand-top-container {
+        margin: 3rem 0px 0px 2.302rem;
+    }
+
+    .guur__brand-header {
+        margin: auto auto auto 2rem;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 1050px) {
+        .guur__brand {
+            border-radius: 60px;
+        }    
+
+        .guur__brand-image{
+            justify-content: center;
+            margin: 1.25rem auto;
+
+        }
+      
+        .guur__brand-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        
+        }
+
+       
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .guur__brand-header-paragraph{
+        flex-direction: column;
+    }
+    .guur__brand-top-container h2 {
+        font-size: 1.75rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 400px;
+        max-height:400px;
+        width: 400px;
+        height: 400px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1, .guur__brand-header-row-2 {
+        margin-right: 3rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        font-size: 1.65rem;
+        text-align: center;
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+        
+
+    }
+
+}
+@media screen and (max-width: 688px) {
+
+    .guur__brand {
+        padding: 0rem;
+    }
+
+    
+    .guur__brand-top-container h2 {
+        font-size: 1.75rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 400px;
+        max-height:400px;
+        width: 400px;
+        height: 400px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1 {
+        margin-right: 3rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        font-size: 1.65rem;
+        text-align: center;
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+        
+
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .guur__brand {
+        padding: 0rem;
+    }
+
+    
+    .guur__brand-top-container h2 {
+        font-size: 1.75rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 400px;
+        max-height:400px;
+        width: 400px;
+        height: 400px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1{
+        margin-right: 3rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        font-size: 1.65rem;
+        text-align: center;
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+        
+
+    }
+
+   
+}
+
+@media screen and (max-width: 500px) {
+
+    .guur__brand {
+        padding: 0rem;
+    }
+
+    
+    .guur__brand-top-container h2 {
+        font-size: 1.45rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 400px;
+        max-height:400px;
+        width: 365px;
+        height: 365px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1{
+        margin-right: 3.25rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+        
+
+    }
+
+
+}
+@media screen and (max-width: 460px) {
+    .guur__brand-top-container h2 {
+        font-size: 1.30rem;
+        margin-top: 10px;
+        margin-right: 25px;
+        
+    }
+
+    .guur__brand-top-container {
+        margin-top: 30px;
+    }
+
+    .guur__brand-header {
+        margin: auto; 
+        padding: 1.6rem;
+        margin-left: 2%;
+
+    }
+    .guur__brand-header-paragraph {
+        margin-top: 5px;
+    }
+
+    .guur__brand {
+        padding: 0rem;
+        border-radius: 40px;
+    }
+
+    
+    .guur__brand-top-container h2 {
+        font-size: 1.45rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 350px;
+        max-height:350px;
+        width: 350px;
+        height: 350px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1, .guur__brand-header-row-2 {
+        margin-right: 3.25rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+        
+
+    }
+
+
+}
+@media screen and (max-width: 428px) {
+    .guur__brand-top-container h2 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-right: 25px;
+        
+    }
+
+    .guur__brand-top-container {
+        margin-top: 30px;
+    }
+
+    .guur__brand-header {
+        margin: auto; 
+        padding: 1.6rem;
+        margin-left: 2.5%;
+    }
+    .guur__brand-header-paragraph {
+        margin-top: 5px;
+    }
+
+    .guur__brand {
+        padding: 0rem;
+        border-radius: 40px;
+    }
+
+    
+    .guur__brand-top-container h2 {
+        font-size: 1.45rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 350px;
+        max-height:350px;
+        width: 330px;
+        height: 330px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1, .guur__brand-header-row-2 {
+        margin-right: 3.5rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 0.90rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+
+    }
+
+
+}
+
+@media screen and (max-width: 414px) {
+
+    .guur__brand {
+        padding: 0rem;
+    }
+
+    
+    .guur__brand-top-container h2 {
+        font-size: 1.40rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 320px;
+        max-height:320px;
+        width: 320px;
+        height: 320px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1, .guur__brand-header-row-2 {
+        margin-right: 3.5rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 0.90rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 1.15rem;
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+
+    }
+
+
+}
+
+@media screen and (max-width: 393px) {
+    .guur__brand-top-container h2 {
+        font-size: 1.30rem;
+        margin-top: 10px;
+        margin-right: 25px;
+        
+    }
+
+    .guur__brand-top-container {
+        margin-top: 30px;
+    }
+
+    .guur__brand-header {
+        margin: auto; 
+        padding: 1.6rem;
+        margin-left: 2%;
+
+    }
+    .guur__brand-header-paragraph {
+        margin-top: 5px;
+    }
+
+    .guur__brand {
+        padding: 0rem;
+        border-radius: 40px;
+    }
+    
+    .guur__brand-top-container h2 {
+        font-size: 1.35rem;
+        
+    }
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 320px;
+        max-height:320px;
+        width: 300px;
+        height: 300px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1, .guur__brand-header-row-2 {
+        margin-right: 3.75rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        text-align: center;
+
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    .guur__brand-top-container h2 {
+        font-size: 1.30rem;
+        margin-top: 10px;
+        margin-right: 25px;
+        
+    }
+
+    .guur__brand-top-container {
+        margin-top: 30px;
+    }
+
+    .guur__brand-header {
+        margin: auto; 
+        padding: 1.6rem;
+        margin-left: 1.5%;
+
+    }
+    .guur__brand-header-paragraph {
+        margin-top: 5px;
+    }
+
+    .guur__brand {
+        padding: 0rem;
+        border-radius: 40px;
+    }
+
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 320px;
+        max-height:320px;
+        width: 275px;
+        height: 275px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-1, .guur__brand-header-row-2 {
+        margin-right: 3.9rem ;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        width: auto;
+        margin-bottom: 1.0rem;
+        text-align: center;
+        font-size: 1.05rem;
+  
+    }
+
+    .guur__brand-header-row-1 hr {
+        margin: 0rem auto 1rem auto;
+
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .guur__brand {
+        padding: 0rem;
+        border-radius: 40px;
+    }
+
+    .guur__brand-top-container {
+        margin-top: 30px;
+    }
+
+    .guur__brand-top-container h2 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .guur__brand-image {
+        width: auto;
+        height: auto;
+    }
+    .guur__brand-image img {
+        display: block;
+        max-width: 320px;
+        max-height:320px;
+        width: 250px;
+        height: 250px;
+        margin: 1rem 3rem 0rem 2rem;
+    }
+
+    .guur__brand-header-row-2 p {
+        font-size: 0.75rem;
+        text-align: center;
+    }
+    
+    .guur__brand-header-row-1 h2 {
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .guur__brand-header {
+        margin: auto; 
+        padding: 1.6rem;
+        margin-left: 1.5%;
+
+    }
+    .guur__brand-header-paragraph {
+        margin-top: 5px;
+    }
+    
+}

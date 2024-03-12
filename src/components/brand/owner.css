@@ -1,0 +1,222 @@
+
+.guur__owner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    font-family: var(--font-family2);
+    width: 90%;
+    height: auto;
+    background-color: #7884DD;
+    border-radius: 100px;
+    margin: 3rem auto;
+    padding: 0rem 2.302rem;
+    position: relative;
+    z-index: -2;
+    overflow-x: hidden;
+
+}
+
+.guur__owner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.guur__owner-quote-container {
+    margin: auto auto;
+}
+
+.guur__owner-quote-container h2 {
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+
+    .guur__owner-image {
+        display: flex;
+        margin: auto;
+    }
+
+.guur__owner-image img{
+    margin-top: 4rem;
+    display: block;
+    max-width:400px;
+    max-height:400px;
+    width: 400px;
+    height: 400px;
+    margin-left: 2.302rem;
+}
+
+.guur__owner-quote p {
+    display: flex;
+}
+
+@media screen and (min-width: 2500px){
+    .guur__owner {
+        width: 2000px;
+    }
+    .guur__owner-header-row-1 hr {
+        width: 5rem;
+        height: 0.6rem;
+        margin-bottom: 1.5rem;
+        background-color: var(--color-floats-2);
+        border: none;
+        border-radius: 1.25rem;
+    }
+    .guur__owner-image img {
+        margin-bottom: 4rem;
+        width: 400px;
+        height: 400px;
+    }
+    .guur__owner-quote-container {
+        margin: 8rem 8rem;
+    }
+    .guur__owner-quote-container h2 {
+        width: 100%;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .guur__owner-quote p {
+        font-size: 1rem;
+    }
+}
+
+@media  screen and (max-width: 2500px) {
+    .guur__owner-header-row-1 hr {
+        width: 5rem;
+        height: 0.6rem;
+        margin-bottom: 1.5rem;
+        background-color: var(--color-floats-2);
+        border: none;
+        border-radius: 1.25rem;
+    }
+    .guur__owner-image img {
+        margin-bottom: 4rem;
+        width: 400px;
+        height: 400px;
+    }
+    .guur__owner-quote-container {
+        margin: 8rem 8rem;
+    }
+    .guur__owner-quote-container h2 {
+        width: 100%;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .guur__owner-quote p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    .guur__owner-header-row-1 hr {
+        width: 3.4375rem;
+        height: 0.3125rem;
+
+
+    }
+    .guur__owner-image {
+        display: flex;
+    }
+    
+    .guur__owner-image img {
+        margin-bottom: 4rem;
+        width: 350px;
+        height: 350px;
+    }
+
+    .guur__owner-quote-container {
+        margin: 4rem 4rem;
+    }
+    .guur__owner-quote-container h2 {
+        font-size: 1.5rem;
+    }
+    .guur__owner-quote p {
+        font-size: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .guur__owner-image {
+        justify-content: center;
+    }
+    .guur__owner-container {
+        flex-direction: column;
+    }
+
+    .guur__owner-image img {
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        width: 300px;
+        height: 300px;
+    }
+    .guur__owner-header-row-1 hr {
+        margin: 2rem auto 2rem auto;
+
+    }
+
+    .guur__owner-quote-container {
+        margin: 4rem auto;
+    }
+
+    .guur__owner-quote-container h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .guur__owner-quote p {
+        text-align: center;
+        margin: 2rem auto 2rem auto;
+        font-size: 1rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .guur__owner-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .guur__owner-quote p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    .guur__owner-image img {
+        width: 200px;
+        height: 200px;
+    }
+    .guur__owner-quote-container h2 {
+        display: flex;
+        text-align: center;
+        margin: 0rem;
+    }
+   
+}
+
+@media screen and (max-width: 375px){
+    .guur__owner-quote p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 323px){
+    .guur__owner-image img {
+        width: 200px;
+        height: 200px;
+    }
+    .guur__owner-quote-container h2 {
+        display: flex;
+        text-align: center;
+        margin: 0rem;
+    }
+  
+}
